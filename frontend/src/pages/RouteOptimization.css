@@ -1,0 +1,63 @@
+/* Container for the route optimization page */
+.route-optimization-container {
+  width: 100%; /* Full width of the screen */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center content vertically */
+  padding: 0; /* Removed extra padding */
+  background: linear-gradient(to bottom, #4a90e2, #50c4c6); /* Gradient background */
+  overflow: hidden;
+}
+
+/* Title styling */
+.route-optimization-title {
+  font-size: 3rem; /* Large title */
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px; /* Reduced space below title */
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+/* Button styling */
+.route-optimization-button {
+  padding: 14px 28px; /* Slightly smaller button */
+  background-color: #007bff;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  margin-bottom: 10px; /* Reduced space below button */
+}
+
+.route-optimization-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+/* Map container styling */
+.route-optimization-map {
+  width: 95%; /* Increased width to 95% of the container */
+  height: 85vh; /* Increased height to 85% of viewport */
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+  background: #fff;
+  display: flex;
+  justify-content: center; /* Ensure map is centered */
+  align-items: center;
+}
+
+/* Map inside the container */
+.map {
+  width: 100%;  /* Full width of the map container */
+  height: 100%; /* Full height of the map container */
+}
