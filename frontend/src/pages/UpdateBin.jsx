@@ -28,7 +28,7 @@ const UpdateBin = () => {
       console.log("Authorization token:", token); // Debug
 
       const response = await axios.post(
-        "http://localhost:8000/api/bins/update",
+        "https://next-generation-smart-waste-bins-backend.onrender.com/api/bins/update",
         { binId, status },
         {
           headers: {
