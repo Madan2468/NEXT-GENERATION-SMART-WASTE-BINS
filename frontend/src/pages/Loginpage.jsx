@@ -20,7 +20,7 @@ const LoginPage = ({ setToken }) => {
 
     try {
       const response = await axios.post(
-        "http://localhost:8000/api/auth/login",
+        "https://next-generation-smart-waste-bins-backend.onrender.com/api/auth/login",
         { email, password }
       );
 

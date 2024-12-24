@@ -5,8 +5,8 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-import LoginPage from "./pages/LoginPage";
-import RegisterPage from "./pages/RegisterPage";
+import LoginPage from "./pages/Loginpage";
+import RegisterPage from "./pages/Registerpage";
 import Dashboard from "./pages/Dashboard";
 import CreateBin from "./pages/CreateBin";
 import TotalBins from "./pages/TotalsBins";

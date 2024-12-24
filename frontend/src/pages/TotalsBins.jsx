@@ -29,7 +29,9 @@ const TotalBins = () => {
   useEffect(() => {
     const fetchBinsData = async () => {
       try {
-        const response = await axios.get("http://localhost:8000/api/bins/all");
+        const response = await axios.get(
+          "https://next-generation-smart-waste-bins-backend.onrender.com/api/bins/all"
+        );
         const binsArray = Array.isArray(response.data.bins)
           ? response.data.bins
           : Object.values(response.data.bins);

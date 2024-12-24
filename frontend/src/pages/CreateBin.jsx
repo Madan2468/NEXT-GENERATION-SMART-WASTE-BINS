@@ -34,7 +34,10 @@ const CreateBin = () => {
     }
 
     try {
-      await axios.post("http://localhost:8000/api/bins/create", formData);
+      await axios.post(
+        "https://next-generation-smart-waste-bins-backend.onrender.com/api/bins/create",
+        formData
+      );
       setSuccess("Bin created successfully!");
       setFormData({ name: "", location: "", status: "" }); // Reset form
       setTimeout(() => navigate("/dashboard"), 1500); // Redirect to dashboard after 1.5 seconds

@@ -12,7 +12,10 @@ const RegisterPage = () => {
   const handleRegister = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:8000/api/auth/register", formData);
+      await axios.post(
+        "https://next-generation-smart-waste-bins-backend.onrender.com/api/auth/register",
+        formData
+      );
       alert("Registration successful! Please log in.");
     } catch (err) {
       alert(err.response.data.message || "Registration failed!");
