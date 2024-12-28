@@ -1,5 +1,6 @@
-# NEXT-GENERATION SMART W ASTE BINS: IOT-BASED
-W ASTE MONITORING AND COLLECTION OPTIMIZATION
+# NEXT-GENERATION SMART W ASTE BINS: IOT-BASED : WASTE MONITORING AND COLLECTION OPTIMIZATION
+
+
 
 ## **Overview**
 This project addresses critical challenges in urban waste management caused by inefficient collection systems. Problems such as overflowing bins, high operational costs, and environmental hazards are tackled using IoT principles and optimization algorithms. 
